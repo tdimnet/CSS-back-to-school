@@ -9,6 +9,7 @@ font-family: 'Roboto', sans-serif;
     --black: #000;
     --torch-red: #FE142F;
     --white: #FFF;
+    --mine-shaft: #232323;
 
     --br-radius: 8px;
 }
@@ -25,6 +26,11 @@ body {
 
 img {
     width: 100%;
+}
+
+.br::before {
+    content: "\A";
+    white-space: pre;
 }
 
 
@@ -100,7 +106,7 @@ img {
     border: none;
     color: var(--white);
     display: flex;
-    height: 30px;
+    height: 50px;
     justify-content: center;
     width: 130px;
 }
@@ -127,22 +133,22 @@ img {
 
     /* Main Settings  */
     .main-content {
-        position: relative;
         display: grid;
-        grid-template-columns: 30%  70%;
+        grid-template-columns: 40%  60%;
         margin-bottom: 100px;
+        position: relative;
     }
 
     .main-content-text {
         color: var(--white);
+        left: 30px;
         position: absolute;
-        z-index: 1;
-        left: 0;
         top: 0;
+        z-index: 1;
     }
 
     .bg-black {
-        background-color: var(--black);
+        background-color: var(--mine-shaft);
     }
 
     .main-img-wrapper {
@@ -153,11 +159,20 @@ img {
         height: 100%;
     }
 
+    .main-title {
+        font-size: 96px;
+    }
+
+    .main-paragraph {
+        font-size: 24px;
+        width: 400px;
+    }
+
     .sign-up-btn-wrapper {
+        bottom: 20px;
+        left: 50px;
         position: absolute;
         z-index: 1;
-        bottom: 0;
-        left: 0;
     }
 
     .main-footer.w-90 {
@@ -167,4 +182,4 @@ img {
     .footer-copyright {
         text-align: left;
     }
-}
+mine-shaft
