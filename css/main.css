@@ -1,0 +1,77 @@
+
+
+/*
+font-family: 'DM Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+:root {
+    --white: #FFF;
+    --black: #333;
+    --torch-red: #FE142F;
+}
+
+
+/* General Settings */
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Functional Settings  */
+.w-90 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+
+/* Header Settings */
+.main-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+/* Main Settings  */
+.main-content {
+}
+
+
+/* Footer Settings  */
+.main-footer {
+}
+
+.main-img-wrapper {
+    margin-bottom: 30px;
+}
+
+.sign-up-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-btn {
+    border-radius: 8px;
+    border: none;
+    background-color: var(--torch-red);
+    color: var(--white);
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: var(--torch-red);
+}
