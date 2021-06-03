@@ -6,9 +6,11 @@ font-family: 'Roboto', sans-serif;
 */
 
 :root {
-    --white: #FFF;
     --black: #333;
     --torch-red: #FE142F;
+    --white: #FFF;
+
+    --br-radius: 8px;
 }
 
 
@@ -54,24 +56,25 @@ img {
 }
 
 .sign-up-btn-wrapper {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .sign-up-btn {
-    border-radius: 8px;
-    border: none;
-    background-color: var(--torch-red);
-    color: var(--white);
-    width: 130px;
-    height: 30px;
-    display: flex;
     align-items: center;
+    background-color: var(--torch-red);
+    border-radius: var(--br-radius);
+    border: none;
+    color: var(--white);
+    display: flex;
+    height: 30px;
     justify-content: center;
+    width: 130px;
 }
 
 .footer-copyright {
-  text-align: center;
   color: var(--torch-red);
+  text-align: center;
 }
